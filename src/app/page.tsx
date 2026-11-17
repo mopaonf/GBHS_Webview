@@ -2,6 +2,7 @@ import Footer from "@/components/Footer";
 import Link from "next/link";
 import Header from "@/components/Header";
 import HeroSlider from "@/components/HeroSlider";
+import SchoolTour from "@/components/SchoolTour";
 import DestinationUniversities from "@/components/DestinationUniversities";
 import InstagramGallery from "@/components/InstagramGallery";
 import Statistics from "@/components/Statistics";
@@ -48,6 +49,8 @@ export default function Home() {
         </div>
         <div className="split-image results-image" role="img" aria-label="Students collaborating outdoors at school" />
       </section>
+
+      <SchoolTour />
 
       <section className="school-life-section section-wrap">
         <div className="school-life-grid">
